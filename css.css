@@ -1,5 +1,5 @@
 *{
-	margin 0;padding 0;box-sizing: border-box;
+	margin:0;padding:0;box-sizing: border-box;
 	font-family: 'Josefin Sans',sans-serif;
 }
 header {width:100;height:100vh;
@@ -130,7 +130,7 @@ h1:after{
 	60%{ content: "Music"; }
 	80%{ content: "Entertainment"; }
 	100%{ content: "Culture"; }
-
+}
 style{
 	content: 'bgchange';
 	animation-name: bgchange;
@@ -139,6 +139,7 @@ style{
 	animation: bgchange 10s infinite linear;
 
 }
+
 @keyframes bgchange{
 	0%{content:"background-image:url(stud.jpg);" }
 	20%{content:"background-image:url(news.jpg);" }
